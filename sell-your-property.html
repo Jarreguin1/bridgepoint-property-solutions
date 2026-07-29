@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sell Your Property | Bridgepoint Property Solutions</title>
+  <meta name="description" content="Tell Bridgepoint Property Solutions about your property and explore whether a direct sale may fit your situation.">
+  <meta property="og:title" content="Sell Your Property | Bridgepoint Property Solutions">
+  <meta property="og:description" content="Share your property details for a respectful, no-obligation conversation.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.arreguinre.com/sell-your-property.html">
+  <link rel="canonical" href="https://www.arreguinre.com/sell-your-property.html">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">B</span><span>Bridgepoint Property Solutions</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="sell-your-property.html" aria-current="page">Sell Your Property</a>
+        <a href="how-it-works.html">How It Works</a>
+        <a href="about.html">About</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <p class="eyebrow">Seller inquiry</p>
+      <h1>Tell us about your property.</h1>
+      <p>Share what you know. A complete form helps us understand the property, your timeline, and whether a direct conversation makes sense.</p>
+    </section>
+
+    <section class="section form-section">
+      <form class="lead-form" id="seller-form" action="https://formspree.io/f/mdaqbrzz" method="POST">
+        <div class="form-grid">
+          <label>Full name <input name="full_name" autocomplete="name" required></label>
+          <label>Phone number <input name="phone" type="tel" autocomplete="tel" required></label>
+          <label>Email address <input name="email" type="email" autocomplete="email" required></label>
+          <label>Property address <input name="property_address" autocomplete="street-address" required></label>
+          <label>City <input name="city" autocomplete="address-level2" required></label>
+          <label>State <input name="state" autocomplete="address-level1" maxlength="30" required></label>
+          <label>ZIP code <input name="zip" autocomplete="postal-code" inputmode="numeric" required></label>
+          <label>Property type
+            <select name="property_type" required>
+              <option value="">Select one</option>
+              <option>Single-family home</option>
+              <option>Condo or townhouse</option>
+              <option>Multifamily property</option>
+              <option>Land</option>
+              <option>Commercial property</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Occupancy status
+            <select name="occupancy_status" required>
+              <option value="">Select one</option>
+              <option>Owner occupied</option>
+              <option>Tenant occupied</option>
+              <option>Vacant</option>
+              <option>Unknown</option>
+            </select>
+          </label>
+          <label>Property condition
+            <select name="property_condition" required>
+              <option value="">Select one</option>
+              <option>Move-in ready</option>
+              <option>Needs light repairs</option>
+              <option>Needs major repairs</option>
+              <option>Fire, water, or structural concerns</option>
+              <option>Unsure</option>
+            </select>
+          </label>
+          <label>Desired selling timeline
+            <select name="timeline" required>
+              <option value="">Select one</option>
+              <option>As soon as practical</option>
+              <option>Within 30 days</option>
+              <option>1 to 3 months</option>
+              <option>More than 3 months</option>
+              <option>Just exploring options</option>
+            </select>
+          </label>
+          <label>Asking price, optional <input name="asking_price" inputmode="decimal"></label>
+        </div>
+        <label>Additional details
+          <textarea name="additional_details" rows="6" placeholder="Tell us anything helpful about the property, your timeline, repairs, tenants, or circumstances."></textarea>
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" name="consent" required>
+          <span>By submitting this form, you agree that Bridgepoint Property Solutions may contact you regarding your property inquiry. Submitting this form does not create an obligation to sell.</span>
+        </label>
+        <input type="hidden" name="_subject" value="New property inquiry from ArreguinRE.com">
+        <button class="button primary" type="submit">Submit Property Inquiry</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+      <aside class="contact-aside">
+        <h2>Prefer email?</h2>
+        <p>You can also send the property details directly to <a href="mailto:joselyn@arreguinre.com">joselyn@arreguinre.com</a>.</p>
+        <p>We review each inquiry individually. No offer, price, purchase, or closing date is guaranteed.</p>
+      </aside>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-grid"><div><strong>Bridgepoint Property Solutions</strong><p>ArreguinRE.com</p></div><div><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></div></div>
+    <p class="disclaimer">Bridgepoint Property Solutions is a real estate investment business and is not a real estate brokerage. Information provided on this website is for general informational purposes only and is not legal, tax, or financial advice. Property owners should consult qualified professionals regarding their individual circumstances.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
