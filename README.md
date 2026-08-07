@@ -15,7 +15,8 @@ Static GitHub Pages website for Bridgepoint Property Solutions at `www.arreguinr
 - `404.html` - GitHub Pages custom not found page
 - `assets/css/styles.css` - site styles
 - `assets/js/main.js` - mobile menu and form helper messaging
-- `assets/img/favicon.svg` - favicon placeholder
+- `assets/img/bridgepoint-logo-social.png` - logo used for the site header and browser icon
+- `assets/img/favicon.svg` - original favicon placeholder
 - `CNAME` - GitHub Pages custom domain
 - `robots.txt` and `sitemap.xml` - search engine files
 
